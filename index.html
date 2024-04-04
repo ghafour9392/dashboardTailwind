@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Component</title>
+  <link rel="stylesheet" href="/public/build/style.css">
+</head>
+
+<body class="bg-gray-200">
+  <section class="flex-wrap flex justify-evenly gap-5 p-2.5">
+    <div class="flex max-w-[450px] flex-col gap-y-5">
+      <!-- weather -->
+      <div class="bg-white max-w-[450px] h-36 rounded-3xl p-8 flex items-center justify-between">
+        <div class="h-full text-blue-950/60 flex flex-col justify-between">
+          <span class="text-sm ">New Delhi</span>
+          <span class="text-3xl font-bold text-blue-950">06:20 AM</span>
+          <span class="text-sm ">Novemaber 10.2020 | Wednesday</span>
+        </div>
+        <div class="flex">
+          <img src="/assets/images/Weather Icon.svg" alt="" srcset="">
+          <span class="text-blue-950 text-2xl font-bold">18&deg; C</span>
+        </div>
+      </div>
+      <!-- instagram -->
+      <div class="bg-white max-w-[450px] h-80 text-blue-950 rounded-3xl p-8 flex flex-col justify-between">
+        <div class="text-base  flex justify-between items-center">
+          <img src="/assets/images/Profile Image.svg" alt="" srcset="">
+          <div class="flex flex-col items-center">
+            <span>Post</span>
+            <span class="font-bold text-lg">23</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <span>Followers</span>
+            <span class="font-bold text-lg">326</span>
+          </div>
+          <div class="flex flex-col items-center">
+            <span>Following</span>
+            <span class="font-bold text-lg">120</span>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <h2 class="text-lg font-bold">Neelesh Chaudhary</h2>
+          <span class="text-base">UI / UX Designer</span>
+        </div>
+        <div class="">
+          <h3 class="text-base font-bold">About</h3>
+          <p class="text-sm text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare pretium
+            placerat
+            ut platea. Purus blandit integer sagittis massa vel est hac.</p>
+        </div>
+      </div>
+      <!-- blog -->
+      <div class="bg-white max-w-[450px] h-[550px] text-blue-950 rounded-3xl p-8 flex flex-col justify-between">
+        <div class="rounded-3xl overflow-hidden">
+          <img src="/assets/images/2661564.png" alt="" srcset="">
+        </div>
+        <div class="flex flex-col gap-4">
+          <h2 class="text-3xl font-bold">Learn Microinteraction</h2>
+          <span class="text-sm">Monday Jan 20 , 2020</span>
+          <p class="text-sm text-blue-950/60">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare pretium
+            placerat ut platea. Purus blandit
+            integer sagittis massa vel est hac.</p>
+        </div>
+        <div class="flex justify-between items-center">
+          <div class="font-bold text-sm">Read Full Blog</div>
+          <div class="bg-blue-50 rounded-md py-1.5 px-6">BLOG</div>
+        </div>
+      </div>
+    </div>
+    <div class="flex max-w-[450px] flex-col gap-y-5">
+      <!-- bio -->
+      <div
+        class="bg-white max-w-[450px] h-[527px] text-blue-950 rounded-3xl p-8 flex flex-col justify-between items-center">
+        <div class="flex flex-col items-center gap-4">
+          <img class="block h-28 w-28" src="/assets/images/Profile Image.svg" alt="" srcset="">
+          <div class="bg-blue-50 w-24 h-7 text-center">Pro</div>
+        </div>
+        <div class="flex flex-col text-center mx-8">
+          <h2 class="text-lg font-bold">Neelesh Chaudhary</h2>
+          <h3 class="text-base mb-3">UI / UX Designer</h3>
+          <span class="text-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare pretium placerat ut
+            platea.</span>
+        </div>
+        <div class="flex justify-between w-3/4 items-center">
+          <img class="h-5" src="/assets/images/dribble.svg" alt="" srcset="">
+          <img class="h-5" src="/assets/images/instagram.svg" alt="" srcset="">
+          <img class="h-5" src="/assets/images/twitter.svg" alt="" srcset="">
+          <img class="h-5" src="/assets/images/linkedin.svg" alt="" srcset="">
+          <img class="h-5" src="/assets/images/facebook.svg" alt="" srcset="">
+          <img class="h-5" src="/assets/images/behance.svg" alt="" srcset="">
+        </div>
+        <div class="flex w-full gap-3">
+          <button class="w-full rounded-2xl border-2 py-4 border-slate-700 border-solid">
+            <span class="text-lg font-bold">Message</span>
+          </button>
+          <button class="w-full bg-blue-950 rounded-2xl border-2 py-4 border-slate-700 border-solid">
+            <span class="text-lg font-bold text-indigo-100">Connect</span>
+          </button>
+        </div>
+      </div>
+      <!-- table -->
+      <div class="bg-white max-w-[450px] h-96 text-blue-950 rounded-3xl p-8 flex flex-col justify-between">
+        <div class="flex justify-between items-center">
+          <span class="text-lg font-bold">Calendar</span>
+          <div class="flex items-end relative w-44 text-center">
+            <span class="text-4xl font-bold w-full">Jan 2020</span>
+            <span class="block border-t-white border-l-white
+          border-[6px] border-b-blue-950 border-solid border-r-blue-950
+          absolute right-0 bottom-1"></span>
+          </div>
+        </div>
+        <table class="table-fixed w-full">
+          <thead class="h-16">
+            <tr>
+              <th>S</th>
+              <th>M</th>
+              <th>T</th>
+              <th>W</th>
+              <th>T</th>
+              <th>F</th>
+              <th>S</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="text-center h-10">
+              <td class="text-blue-950/60">27</td>
+              <td class="text-blue-950/60">28</td>
+              <td class="text-blue-950/60">29</td>
+              <td class="text-blue-950/60">30</td>
+              <td class="text-blue-950/60">1</td>
+              <td>2</td>
+              <td>3</td>
+            </tr>
+            <tr class="text-center h-10">
+              <td>4</td>
+              <td>5</td>
+              <td class="flex items-center justify-center">
+                <span class="h-10 w-10 flex items-center justify-center bg-blue-50 rounded-full">6</span>
+              </td>
+              <td>7</td>
+              <td class="flex items-center justify-center">
+                <span class="h-10 w-10 flex items-center justify-center bg-blue-950 rounded-full text-blue-50">8</span>
+              </td>
+              <td>9</td>
+              <td>10</td>
+            </tr>
+            <tr class="text-center h-10">
+              <td>11</td>
+              <td>12</td>
+              <td>13</td>
+              <td>14</td>
+              <td class="relative">15
+                <div class="absolute bottom-0.5 left-[17px] flex justify-center gap-0.5">
+                  <span class="h-1.5 w-1.5 block bg-red-400 rounded-full"></span>
+                  <span class="h-1.5 w-1.5 block bg-yellow-400 rounded-full"></span>
+                  <span class="h-1.5 w-1.5 block bg-blue-400 rounded-full"></span>
+                </div>
+              </td>
+              <td>16</td>
+              <td>17</td>
+            </tr>
+            <tr class="text-center h-10">
+              <td>18</td>
+              <td>19</td>
+              <td>20</td>
+              <td>21</td>
+              <td class="relative">22
+                <div class="absolute bottom-0.5 left-[17px] flex justify-center gap-0.5">
+                  <span class="h-1.5 w-1.5 block bg-red-400 rounded-full"></span>
+                  <span class="h-1.5 w-1.5 block bg-yellow-400 rounded-full"></span>
+                  <span class="h-1.5 w-1.5 block bg-blue-400 rounded-full"></span>
+                </div>
+              </td>
+              <td>23</td>
+              <td>24</td>
+            </tr>
+            <tr class="text-center h-10">
+              <td>25</td>
+              <td>26</td>
+              <td>27</td>
+              <td>28</td>
+              <td>29</td>
+              <td>30</td>
+              <td>31</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- downloading -->
+      <div class="bg-white max-w-[450px] h-24 overflow-hidden text-blue-950 rounded-3xl flex flex-col justify-between">
+        <div class="w-3/4 bg-indigo-500 h-full px-8 py-5 flex gap-1.5">
+          <img class="w-8 h-8 text-white" src="/assets/images/download.svg" alt="">
+          <div class="flex flex-col justify-between text-white">
+            <span class="text-xs font-bold">Downloading File</span>
+            <span class="text-lg font-bold">75%</span>
+            <span class="text-xs text-white/70">10 min remaining</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="flex max-w-[450px] flex-col gap-y-5">
+      <!-- chart -->
+      <div class="bg-white max-w-[450px] h-60 p-8 text-blue-950 rounded-3xl flex flex-col justify-between">
+        <div class="flex justify-between">
+          <div class="flex flex-col justify-between">
+            <h2 class="font-bold text-2xl sm:text-3xl">Expertise</h2>
+            <div class="flex flex-col justify-between gap-3 sm:gap-1">
+              <div class="flex gap-2 items-center">
+                <span class="h-2.5 w-2.5 block rounded-full bg-indigo-500"></span>
+                <span class="text-sm sm:text-lg">UI Design</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <span class="h-2.5 w-2.5 block rounded-full bg-blue-950"></span>
+                <span class="text-sm sm:text-lg">UX Research</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <span class="h-2.5 w-2.5 block rounded-full bg-yellow-400"></span>
+                <span class="text-sm sm:text-lg">Design Interaction</span>
+              </div>
+              <div class="flex gap-2 items-center">
+                <span class="h-2.5 w-2.5 block rounded-full bg-green-400"></span>
+                <span class="text-sm sm:text-lg">Wireframing</span>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div class="relative bg-gradient-conic flex items-center justify-center -rotate-45 h-44 w-44 rounded-full">
+              <div class="bg-white h-2/5 w-2/5 rounded-full"></div>
+              <span class="absolute rotate-45 text-xs text-white top-14 right-6">35%</span>
+              <span class="absolute rotate-45 text-xs text-white top-[136px] right-11">15%</span>
+              <span class="absolute rotate-45 text-xs text-white top-[136px] right-[102px]">15%</span>
+              <span class="absolute rotate-45 text-xs text-white top-10 right-[121px]">35%</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- notif -->
+      <div class="bg-white max-w-[450px] h-24 p-5 text-blue-950 rounded-3xl flex gap-3">
+        <div class="w-14 h-14 bg-blue-50 rounded-full flex justify-center items-center">
+          <div class="w-6 h-6 relative">
+            <img src="/assets/images/notification.svg" alt="" srcset="">
+            <span
+              class="absolute border-2 border-blue-50 border-solid w-2.5 h-2.5 bg-green-400 rounded-full top-0 right-0.5"></span>
+          </div>
+        </div>
+        <div class="flex justify-center flex-col">
+          <p class="text-xl font-bold">You have 1 new message</p>
+          <span class="text-sm sm:text-lg text-blue-950/60">Hi Neelesh , we have a task for you...</span>
+        </div>
+      </div>
+      <!-- todo -->
+      <div class="bg-white max-w-[450px] h-[550px] p-8 text-blue-950 rounded-3xl flex flex-col justify-between">
+        <div class="flex flex-col gap-3">
+          <h2 class="text-3xl font-bold">Task to do</h2>
+          <p class="text-sm text-blue-950/60 text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Ornare
+            pretium placerat ut platea. Purus
+            blandit integer
+            sagittis massa vel est hac.</p>
+        </div>
+        <div class="flex flex-col gap-3">
+          <div class="w-full flex items-center gap-3 pl-3.5 pr-6 h-16 bg-blue-50 rounded-xl">
+            <div class="w-10 h-10 flex justify-center items-center bg-white rounded-full">
+              <img class="w-5" src="/assets/images/tick.svg" alt="" srcset="">
+            </div>
+            <p class="flex-1 text-xl font-bold">Wireframing</p>
+            <img class="w-8" src="/assets/images/delete.svg" alt="" srcset="">
+          </div>
+          <div class="w-full flex items-center gap-3 pl-3.5 pr-6 h-16 bg-blue-50 rounded-xl">
+            <div class="w-10 h-10 flex justify-center items-center bg-white rounded-full">
+              <img class="w-5" src="/assets/images/tick.svg" alt="" srcset="">
+            </div>
+            <p class="flex-1 text-xl font-bold">Design Interaction</p>
+            <img class="w-8" src="/assets/images/delete.svg" alt="" srcset="">
+          </div>
+          <div class="w-full flex items-center gap-3 pl-3.5 pr-6 h-16 bg-blue-50 rounded-xl">
+            <div class="w-10 h-10 flex justify-center items-center bg-white rounded-full">
+              <img class="w-5" src="/assets/images/tick.svg" alt="" srcset="">
+            </div>
+            <p class="flex-1 text-xl font-bold">Wireframe Update</p>
+            <img class="w-8" src="/assets/images/delete.svg" alt="" srcset="">
+          </div>
+        </div>
+        <div class="w-16 h-16 rounded-full bg-blue-950 self-end flex justify-center items-center">
+          <img class="w-4" src="/assets/images/plus.svg" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
